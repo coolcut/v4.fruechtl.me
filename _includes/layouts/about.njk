@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+section: about
+---
+
+<main class="f-mb10 f-mb12-m f-pt6 f-pt0-m">
+  <section class="about">
+    <div class="wrapper">
+      <div class="about-hero about-hero--about">
+        <div class="about-hero__box">
+          <h2 class="f-ma0-m page-title">{{ title }}</h2>
+        </div>
+      </div>
+      <section class="about-content">
+        <div class="about-content__intro">
+          <p>{{ slogan }}</p>
+        </div>
+        <div class="about-content__inner">{{ layoutContent | safe }}</div>
+        <aside class="about-content__sidebar">
+          <figure class="f-mb8-m about-hero-portrait">
+            <img data-srcset="https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-400x400-q60.jpg 400w,
+            https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-600x600-q60.jpg 600w,
+            https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg 800w" sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw" data-src="https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg" alt="Profile picture of me, Jan Früchtl" class="f-db f-ma0 f-w-100 lozad" src="https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg" srcset=" https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-400x400-q60.jpg 400w,
+            https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-600x600-q60.jpg 600w,
+            https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg 800w" data-loaded="true">
+          </figure>
+          <div class="about-content__sidebar-list">
+            <div class="f-mb8-m">
+              <h3 class="f-mb3">Work inquiries</h3>
+              <p>{{ inquires | safe }}</p>
+            </div>
+            <div>
+              <h3>Skills</h3>
+              <h4 class="f-mb3 caption-title">Design</h4>
+              <p>{{ design }}</p>
+              <h4 class="f-mb3 caption-title">Coding</h4>
+              <p>{{ coding }}</p>
+              <h4 class="f-mb3 caption-title">Software</h4>
+              <p>{{ software }}</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </div>
+  </section>
+</main>

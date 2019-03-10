@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+section: journal
+permalink: /journal/
+---
+
+<main class="f-mb10 f-mb12-m f-pt6 f-pt0-m">
+  <section class="blog">
+    <div class="wrapper">
+      <h1 class="page-title">{{ title }}</h1>
+      <div class="f-mb10 journal-slogan-area">
+        <h2 class="f-ma0 journal-slogan">Thoughts on Design, Coding, and Building Things</h2>
+      </div>
+      <div class="f-mb8 journal-feature__list">
+        {% set postslist = collections.posts %}
+        {% include "components/postslist.njk" %}
+      </div>
+    </div>
+  </section>
+</main>

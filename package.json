@@ -4,7 +4,7 @@
   "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
   "scripts": {
     "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
+    "watch": "npx eleventy --watch --serve",
     "debug": "DEBUG=* npx eleventy"
   },
   "repository": {

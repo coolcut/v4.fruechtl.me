@@ -1,9 +1,12 @@
-<nav>
-  <ul>
+<nav class="c-site-nav">
+  <ul class="c-site-nav__list">
   {%- for nav in collections.nav | sort(attribute="date") -%}
-    <li>
-      <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+    <li class="c-site-nav__item">
+      <a class="c-site-nav__link{% if nav.url == page.url %} c-site-nav__link--active{% endif %}" href="{{ nav.url | url }}">{{ nav.data.navtitle }}</a>
     </li>
   {%- endfor -%}
+    <li class="c-site-nav__item">
+      <a class="c-site-nav__link" href="mailto:jan@fruechtl.me">Contact</a>
+    </li>
   </ul>
 </nav>

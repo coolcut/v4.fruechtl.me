@@ -3,4 +3,78 @@ layout: layouts/base.njk
 section: home
 ---
 
-{{ layoutContent | safe }}
+<section class="c-homepage-hero">
+  <div class="wrapper">
+    <div class="c-homepage-hero-content">
+      <div class="f-mt10-m c-homepage-hero__slogan">
+        <h1 class="f-ma0 c-homepage-hero__slogan-title">I am a designer and developer, specializing in product design for web, mobile and design systems.</h1>
+      </div>
+      <div class="f-mb6 f-mb0-m c-homepage-hero__cover">
+        <figure class="f-ma0">
+          <img data-srcset="https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-400x267-q60.jpg 400w,
+                            https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-600x400-q60.jpg 600w,
+                            https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-800x533-q60.jpg 800w,
+                            https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-1200x800-q60.jpg 1200w" sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw" data-src="https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-800x533-q60.jpg" alt="Profile picture of me, Jan Früchtl" class="f-db f-w-100 lozad" src="https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-800x533-q60.jpg" srcset=" https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-400x267-q60.jpg 400w,
+                            https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-600x400-q60.jpg 600w,
+                            https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-800x533-q60.jpg 800w,
+                            https://fruechtl.me/media/pages/home/2028144438-1549818939/profile-picture-1200x800-q60.jpg 1200w" data-loaded="true">
+        </figure>
+      </div>
+    </div>
+  </div>
+</section>
+<main class="homepage-content">
+  <div class="wrapper">
+    <section class="f-mb8 f-mb12-m c-homepage-work">
+      <h2 class="homepage-section-title caption-title">Featured Projects</h2>
+      <div class="f-mb8 work-feature__list">
+              <a class="work-feature__item" href="https://fruechtl.me/work/case-studies/advance-vat-return" style="background-color: #BBE5CC;">
+  <h2 class="f-ma0 title-2 work-features__item-title">Advance VAT Return</h2>
+  <h3 class="f-ma0 caption-title">FastBill – Web</h3>
+  <figure class="f-ma0 work-features__item-cover">
+          <img src="https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-1000x600-q60.png" width="560" alt="Example screen for the Advance VAT Return project.">
+      </figure>
+  <svg class="work-features__item-blob" style="transform: rotate(90deg)" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+    <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"></path>
+  </svg>
+</a>
+              <a class="work-feature__item" href="https://fruechtl.me/work/case-studies/motus-warehouse" style="background-color: #F1F1F3;">
+  <h2 class="f-ma0 title-2 work-features__item-title">Motus Warehouse</h2>
+  <h3 class="f-ma0 caption-title">REICHHART digital logistics – Web</h3>
+  <figure class="f-ma0 work-features__item-cover">
+          <img src="https://fruechtl.me/media/pages/work/case-studies/motus-warehouse/445168089-1549818933/work-item-motus-warehouse-1000x600-q60.png" width="560" alt="Example screen for the Motus Warehouse project.">
+      </figure>
+  <svg class="work-features__item-blob" style="transform: rotate(42deg)" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 350">
+    <path d="M156.4,339.5c31.8-2.5,59.4-26.8,80.2-48.5c28.3-29.5,40.5-47,56.1-85.1c14-34.3,20.7-75.6,2.3-111  c-18.1-34.8-55.7-58-90.4-72.3c-11.7-4.8-24.1-8.8-36.8-11.5l-0.9-0.9l-0.6,0.6c-27.7-5.8-56.6-6-82.4,3c-38.8,13.6-64,48.8-66.8,90.3c-3,43.9,17.8,88.3,33.7,128.8c5.3,13.5,10.4,27.1,14.9,40.9C77.5,309.9,111,343,156.4,339.5z"></path>
+  </svg>
+</a>
+            </div>
+      <div class="f-cf">
+        <a class="f-fr homepage-link-teaser" href="https://fruechtl.me/work">See more work →</a>
+      </div>
+    </section>
+
+    <hr class="f-mb8 f-mb12-m">
+
+    <section class="c-homepage-journal">
+      <h2 class="homepage-section-title caption-title">Latest Articles</h2>
+      <div class="f-mb8 f-w-100 journal-feature__list">
+                <a class="journal-feature__item" href="https://fruechtl.me/journal/designing-for-heavy-keyboard-usage">
+  <time class="f-mb2 journal-feature__item-date" datetime="2018-07-26" pubdate="pubdate">July 26, 2018</time>
+  <h2 class="f-mb3 title-3 journal-feature__item-title">Designing for heavy keyboard usage</h2>
+  <p class="f-mb5 journal-feature__item-excerpt">I’m currently working on a concept which focuses heavily on keyboard usage. The goals are clearly defined - every instance that comes into t …</p>
+  <span class="journal-feature__item-more">Read more →</span>
+</a>
+                <a class="journal-feature__item" href="https://fruechtl.me/journal/starting-a-journal">
+  <time class="f-mb2 journal-feature__item-date" datetime="2018-07-22" pubdate="pubdate">July 22, 2018</time>
+  <h2 class="f-mb3 title-3 journal-feature__item-title">Starting a journal</h2>
+  <p class="f-mb5 journal-feature__item-excerpt">As of today, I'm trying something new. I want to take notes, share some interesting articles I read, write down some random thoughts and …</p>
+  <span class="journal-feature__item-more">Read more →</span>
+</a>
+              </div>
+      <div class="f-cf">
+        <a class="f-fr homepage-link-teaser" href="https://fruechtl.me/journal">Read all articles →</a>
+      </div>
+    </section>
+  </div>
+</main>

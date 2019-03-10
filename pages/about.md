@@ -1,27 +1,28 @@
 ---
-title: About us
+layout: layouts/about.njk
+title: About
 tags:
   - nav
 navtitle: About
 section: about
 date: 2017-01-01
-permalink: /about/index.html
+permalink: /about/
+slogan: I am a designer and developer currently working as a UX Designer at FastBill. I live and work in the heart of Europe, Frankfurt am Main in Germany.
+inquires: Currently, I have limited resources as a freelancer. Nevertheless, please don't hesitate to reach out via <a href="mailto:jan@fruechtl.me">email</a>
+design: Visual Design, Wireframes, User Research, User Testing, User Journeys, Design Systems, Ideation and Feedback Sessions, Persona
+coding: HTML & (S)CSS, JavaScript, Vue.js, React, React Native, Node, Swift, Git, Patternlab, WordPress, ProcessWire, Kirby
+software: Sketch, Figma, Framer, InVision, Marvel, Abstract, Zeplin
 ---
 
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Besides my day work, I also consult small and medium businesses on design and web problems. Additionally, I work on different side projects.
 
-## Our services
+At FastBill, I primarily work on our web application. One of the main challenges there is to further improve the overall user experience by rethinking the whole application while also keeping everything visually in sync with the legacy system. Another essential part of what I do is building a stable environment for the future success of the company with different ideation, feedback and communication workshops. That way we incorporate diverse opinions from different teams early on and optimize for future success.
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+In my spare time, I also work on different passion and open source projects. These projects differ in size, audience and time investment and include things like podcast production, contribution to an open source podcast player, development of iOS applications or possible product ideas I work on with friends. The thing I enjoy the most about these different challenges and opportunities is the diversity of problems that occur during the life-span of such projects. These activities keep me energized, help me grow and uncover unknown view-points to different problems.
 
-### Blue-sky thinking
+### Elsewhere
+Personally, I love almost nothing as much as a good conversation or discussions about an exciting topic. If you'd like to talk to me about a specific subject or nearly anything, feel free to [email](mailto:jan@fruechtl.me) me.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+You can also find me on different popular social media platforms. Sometimes I share my thoughts on [Twitter](https://twitter.com/_coolcut), preferably [Mastodon](https://mastodon.social/@coolcut) or post visual content on [Dribbble](https://dribbble.com/coolcut).
 
-#### Management frameworks
-
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
-
-##### Regulatory convergence
-
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+I also love the open web and blogging, so you can also visit [my own little blog](https://coolcut.xyz) and ditch all these social media platforms.
