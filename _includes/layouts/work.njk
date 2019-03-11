@@ -4,40 +4,30 @@ section: about
 ---
 
 <main class="f-mb10 f-mb12-m f-pt6 f-pt0-m">
-  <section class="about">
-    <div class="wrapper">
-      <div class="about-hero about-hero--about">
-        <div class="about-hero__box">
-          <h2 class="f-ma0-m page-title">About</h2>
+  <div class="wrapper">
+    <section class="work f-mb10 f-mb12-m">
+      <div class="f-mb8 work-feature__list">
+        <div class="work-feature__item work-feature__item--intro">
+          <h1 class="page-title">{{ title }}</h1>
+          {{ layoutContent | safe }}
         </div>
+        {% set worklist = collections.work %}
+        {% include "components/worklist.njk" %}
       </div>
-      <section class="about-content">
-        <div class="about-content__intro">
-          <p>I am a designer and developer currently working as a UX Designer at FastBill. I live and work in the heart of Europe, Frankfurt am Main in Germany.</p>
-        </div>
-        <div class="about-content__inner">{{ layoutContent | safe }}</div>
-        <aside class="about-content__sidebar">
-          <figure class="f-mb8-m about-hero-portrait">
-            <img data-srcset="https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-400x400-q60.jpg 400w,
-                              https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-600x600-q60.jpg 600w,
-                              https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg 800w" sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw" data-src="https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg" alt="Profile picture of me, Jan Früchtl" class="f-db f-ma0 f-w-100 lozad" src="https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg" srcset=" https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-400x400-q60.jpg 400w,
-                              https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-600x600-q60.jpg 600w,
-                              https://fruechtl.me/media/pages/about/2032748460-1549818926/pic-800x800-q60.jpg 800w" data-loaded="true">
-          </figure>
-          <div class="about-content__sidebar-list">
-            <div class="f-mb8-m">
-              <h3 class="f-mb3">Work inquiries</h3>
-              <p>Currently, I have limited resources as a freelancer. Nevertheless, please don't hesitate to reach out via <a href="mailto:jan@fruechtl.me">email</a></p>            </div>
-            <div>
-              <h3>Skills</h3>
-              <h4 class="f-mb3 caption-title">Design</h4>
-              <p>Visual Design, Wireframes, User Research, User Testing, User Journeys, Design Systems, Ideation and Feedback Sessions, Persona</p>              <h4 class="f-mb3 caption-title">Coding</h4>
-              <p>HTML &amp; (S)CSS, JavaScript, Vue.js, React, React Native, Node, Swift, Git, Patternlab, WordPress, ProcessWire, Kirby</p>              <h4 class="f-mb3 caption-title">Software</h4>
-              <p>Sketch, Figma, Framer, InVision, Marvel, Abstract, Zeplin</p>
-            </div>
-          </div>
-        </aside>
-      </section>
-    </div>
-  </section>
+    </section>
+    <hr class="f-mb10 f-mb12-m">
+    <section class="side-projects">
+      <aside class="side-projects-info">
+        <h2 class="f-mb3 title-3">Side Projects</h2>
+        <p>Alongside regular workdays, I also like to tinker with new technologies or work on side projects with friends. Traditionally, these projects are mostly based on web technologies or iOS as a platform. I also have a deeply rooted passion for podcasting.</p>      </aside>
+      <ul class="side-project-list">
+              <li class="side-project__item">
+          <h3 class="f-mb3 title-3">Podlove Web Player</h3>
+          <p>The <a href="https://podlove.org/podlove-web-player/">Podlove Web Player</a> is an optimized open-source podcast player based on <a href="https://vuejs.org">Vue</a>. In mid-2018, I joined the team and started contributing concepts and visual design to improve the experience of this player. The first release I've supported with ideas and designs was the redesign of the file tab. Shortly after that, I contributed some tweaks to the audio tab. View the <a href="https://github.com/podlove/podlove-web-player">source on GitHub</a>.</p>        </li>
+              <li class="side-project__item">
+          <h3 class="f-mb3 title-3">Sparv</h3>
+          <p>Sparv was a web service with the goal of making the lives for personal trainers and their clients more comfortable. Together with a friend, we focused on building an early prototype that tried to solve the needs of personal trainers. We developed the first version in <a href="https://nodejs.org/en/">Node</a> and <a href="https://vuejs.org">Vue</a>. Because of some changes in both our lives, we stopped the project in early 2018 and open-sourced the current status of this project. View the <a href="https://github.com/sparv">source on GitHub</a> or some <a href="https://dribbble.com/coolcut/projects/581695-Sparv">designs on Dribbble</a>.</p>        </li>
+            </ul>
+    </section>
+  </div>
 </main>

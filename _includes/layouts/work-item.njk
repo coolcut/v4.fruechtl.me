@@ -1,0 +1,40 @@
+---
+layout: layouts/base.njk
+section: about
+---
+
+<main class="case-study-page">
+  <section class="cs-page-hero">
+  <div class="cs-page-header f-mb8 f-mb10-m">
+    <h1 class="f-mb3 page-title">{{ title }}</h1>
+    <h4 class="f-ma0 caption-title">{{ company }} – {{ platform }}</h4>
+  </div>
+  <figure class="f-mb8 f-mb10-m cs-page-cover">
+    <img srcset=" https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-400x240-q60.png 400w,
+    https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-600x360-q60.png 600w,
+    https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-800x480-q60.png 800w,
+    https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-1000x600-q60.png 1000w,
+    https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-1500x900-q60.png 1500w,
+    https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-2000x1200-q60.png 2000w" sizes="(min-width: 1000px) 1000px, 100vw" data-src="https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/685999058-1549818930/work-item-ust-va-2000x1200-q60.png" alt="Example screen for the Advance VAT Return project." class="f-db">
+  </figure>
+</section>
+<section class="cs-project-information f-mb8 f-mb12-m">
+  <div class="wrapper">
+    <div class="c-project-info__list">
+      <div class="c-project-info__item">
+        <h3 class="c-project-info__title">Company</h3>
+        <h4 class="c-project-info__text">{{ platform }}</h4>
+      </div>
+      <div class="c-project-info__item">
+        <h3 class="c-project-info__title">Project Duration</h3>
+        <h4 class="c-project-info__text">{{ projectDuration }}</h4>
+      </div>
+      <div class="c-project-info__item">
+        <h3 class="c-project-info__title">Role</h3>
+        <h4 class="c-project-info__text">{{ role }}</h4>
+      </div>
+    </div>
+  </div>
+</section>
+{{ layoutContent | safe }}
+</main>
