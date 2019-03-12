@@ -7,7 +7,7 @@ section: home
   <div class="wrapper">
     <div class="c-homepage-hero-content">
       <div class="f-mt10-m c-homepage-hero__slogan">
-        <h1 class="f-ma0 c-homepage-hero__slogan-title">I am a designer and developer, specializing in product design for web, mobile and design systems.</h1>
+        <h1 class="f-ma0 c-homepage-hero__slogan-title">{{ layoutContent | safe }}</h1>
       </div>
       <div class="f-mb6 f-mb0-m c-homepage-hero__cover">
         <figure class="f-ma0">
@@ -32,7 +32,7 @@ section: home
         {% include "components/worklist.njk" %}
       </div>
       <div class="f-cf">
-        <a class="f-fr homepage-link-teaser" href="https://fruechtl.me/work">See more work →</a>
+        <a class="f-fr homepage-link-teaser" href="{{ '/work' | url }}">See more work →</a>
       </div>
     </section>
 
@@ -45,7 +45,7 @@ section: home
         {% include "components/postslist.njk" %}
       </div>
       <div class="f-cf">
-        <a class="f-fr homepage-link-teaser" href="https://fruechtl.me/journal">Read all articles →</a>
+        <a class="f-fr homepage-link-teaser" href="{{ '/journal' | url }}">Read all articles →</a>
       </div>
     </section>
   </div>
