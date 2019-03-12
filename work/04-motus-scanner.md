@@ -19,7 +19,8 @@ previewBackgroundcolor: "#E5D2BB"
       <aside class="cs-section-sidebar">
         <div class="cs-section-sidebar--aside">
           <figure>
-            <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-scanner/955385374-1549818937/single-screen.png" width="256">
+            <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-scanner/955385374-1549818937/single-screen.png"
+            width="256">
           </figure>
         </div>
       </aside>
@@ -53,12 +54,26 @@ previewBackgroundcolor: "#E5D2BB"
       <p>During the development phase, I was part of the product development team. My primary responsibilities were the conceptual and visual design as well as in-depth prototyping of user flows and some specific interactions.</p>
       <p>The main idea behind the Android application is the segmentation of specific processes. Every process, like "Goods Receiving" or "Goods Outwards," is its own entity and acts completely independently. <mark>Furthermore, each process has its own visual theme, which helps the worker in different situations like, for example, recognition. With that in mind, the worker knows that process "X" always has the blue theme and is alarmed when he accidentally opens the wrong process.</mark></p>
       <figure>
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-scanner/567832736-1549818935/motus-scanner-auslagerung.png">
+        <img data-srcset="/static/images/motus-scanner-auslagerung.png?nf_resize=fit&w=400 400w,
+                          /static/images/motus-scanner-auslagerung.png?nf_resize=fit&w=600 600w,
+                          /static/images/motus-scanner-auslagerung.png?nf_resize=fit&w=800 800w,
+                          /static/images/motus-scanner-auslagerung.png?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/motus-scanner-auslagerung.png?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
       </figure>
       <p>Besides visual clues, the application supports different kinds of direction through audio and vibration techniques. With these various cognitive elements, we tried to make the Android app into a companion that helps the worker with very subtle but distinct notifications.</p>
       <p>Another big idea behind this application is the so-called "Cargo List." A cargo list is more or less an abstraction of a shopping basket and displays any scanned handing unit and the corresponding information and destination. In this setting, a worker can select any order or handling unit inside a cargo list for further transfer.</p>
       <figure>
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-scanner/1083583662-1549818937/motus-scanner-screens.png">
+        <img data-srcset="/static/images/motus-scanner-screens.png?nf_resize=fit&w=400 400w,
+                          /static/images/motus-scanner-screens.png?nf_resize=fit&w=600 600w,
+                          /static/images/motus-scanner-screens.png?nf_resize=fit&w=800 800w,
+                          /static/images/motus-scanner-screens.png?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/motus-scanner-screens.png?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
       </figure>
       <h3>Prototyping Insides</h3>
       <p>Every idea and concept has to be tested and validated before handing it over to the developers. Prototyping is a great way to build a nearly realistic version of the design in a fraction of the real development time. With that in mind, I was deeply invested in different ways of prototyping ideas or mimicking user flows for further explanation or discussions.</p>

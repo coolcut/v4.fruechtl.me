@@ -24,14 +24,28 @@ previewBackgroundcolor: "#BFC1E3"
         <p>After some initial thoughts and a rough idea of real potential use-cases, we started to focus on delivering a functional application for one of these particular use-cases.</p>
         <p>To speed up our frontend development for the iOS application, we chose <a href="https://facebook.github.io/react-native/">React Native</a> and <a href="https://expo.io">Expo</a> as our main frontend stack. This decision was hugely influenced by the short time we had. <mark>In hindsight, we probably shouldn't have chosen this frontend stack because of some React Native–specific problems we got stuck on after a promising start. These problems vanished all our hopes of saving time during the development phase.</mark></p>
         <figure class="cs-vscode">
-          <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/acto/196691936-1549818936/vs-code.jpg">
+          <img data-srcset="/static/images/vs-code.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/vs-code.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/vs-code.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/vs-code.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/vs-code.jpg?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
           <figcaption>Some React Native code from the final prototype.</figcaption>
         </figure>
         <h3>Assumption based design</h3>
         <p>One of my strengths is systematic thinking and looking at problems from different angles. This isn't possible in 28 hours. I needed to come up with a basic design idea that solved our stated problem scope as quickly as possible.</p>
         <p><mark>From my point of view, the most critical factors to the success of this application would be the overview of actions and the creation process of one specific action. With this in mind, I optimized the whole app for these two factors.</mark> To optimize for usability and speed, I also tried to be as close to the <a href="https://developer.apple.com/design/human-interface-guidelines/ios/overview/themes/">iOS HIG</a> as possible.</p>
         <figure>
-          <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/acto/3145224324-1549818936/sketch.png">
+          <img data-srcset="/static/images/sketch.png?nf_resize=fit&w=400 400w,
+                          /static/images/sketch.png?nf_resize=fit&w=600 600w,
+                          /static/images/sketch.png?nf_resize=fit&w=800 800w,
+                          /static/images/sketch.png?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/sketch.png?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
           <figcaption>An early sketch I did on my iPad during the ideation phase at the hackathon.</figcaption>
         </figure>
         <p>All these decisions helped us in moving quickly towards this tight deadline. After some rough design ideas, I promptly moved more into the code and helped my teammates with the visual implementation for the necessary screens.</p>

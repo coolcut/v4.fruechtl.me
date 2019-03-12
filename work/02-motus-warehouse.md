@@ -45,23 +45,51 @@ previewBackgroundcolor: "#F1F1F3"
     <div class="cs-section cs-section--screens">
       <p>In our product development team, I was mainly responsible for the design process as well as the implementation of these designs as a frontend developer - the frontend development part was only through the first year. During this time, we were heavily relying on <a href="https://patternlab.io">Patternlab</a> to support our component-based design approach on the frontend side.</p>
       <figure>
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-warehouse/137889687-1549818932/contact-empty-state.jpg">
+        <img data-srcset="/static/images/contact-empty-state.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/contact-empty-state.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/contact-empty-state.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/contact-empty-state.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/contact-empty-state.jpg?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
         <figcaption>An example of an empty state view. Throughout the whole application, we tried to always communicate clearly what the possible actions for a user are. This is very important, especially for a none tech-savvy user-base.</figcaption>
       </figure>
       <p>The primary focus while developing the motus warehouse web application has been master data creation and content management - this web application is the central hub for all logistics management overviews. Because of this focus, we tested a lot of different approaches for desktop computers as well as mobile devices with our customers. The provided feedback during these tests was precious during different decision-making processes and helped us mainly.</p>
       <figure class="rev">
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-warehouse/3632513332-1549818931/area-profile.jpg">
+        <img data-srcset="/static/images/area-profile.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/area-profile.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/area-profile.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/area-profile.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/area-profile.jpg?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
         <figcaption>The area profile page presents all relevant data that corresponds to this selected area. It gives the user insights about boxes and their specific states.</figcaption>
       </figure>
       <h3>Playing Lego with the UI</h3>
       <p><mark>Visually, motus warehouse is very component-based and firmly integrates the metaphor of card-based design. Every component is made out of a card and is structured unambiguously.</mark> Nearly everything in this application is subtle and unintrusive - bright colors are very rare. The main reason behind that is the overall aim for a modest and supportive software that focuses on getting the job done.</p>
       <figure>
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-warehouse/2203019454-1549818931/add-new-area-error.jpg">
+        <img data-srcset="/static/images/add-new-area-error.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/add-new-area-error.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/add-new-area-error.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/add-new-area-error.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/add-new-area-error.jpg?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
         <figcaption>A simple entering mask inside the motus application. For these screens, we wanted to minimize overhead and optimize for ease of use as well as excellent accessibility.</figcaption>
       </figure>
       <p>Furthermore, we decided early on that icons can make a difference in communicating with our users. Icons alone can't provide enough value on their own, but in combination with colors and labels, they can markedly enhance the overall experience and make different actions and components easier to understand. Therefore, we decided to build our icon library to have full control over the icon set and our style.</p>
       <figure>
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/motus-warehouse/3741995383-1549818931/module_icons.png">
+        <img data-srcset="/static/images/module_icons.png?nf_resize=fit&w=400 400w,
+                          /static/images/module_icons.png?nf_resize=fit&w=600 600w,
+                          /static/images/module_icons.png?nf_resize=fit&w=800 800w,
+                          /static/images/module_icons.png?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/module_icons.png?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
         <figcaption>Examples of some icons a talented colleague of mine, Nina König, did for our different modules within the warehouse product.</figcaption>
       </figure>
       <h3>Our own internal design system</h3>
@@ -83,7 +111,8 @@ previewBackgroundcolor: "#F1F1F3"
         <h4>Perfection in a early stage  👂+ 🚢+👂</h4>
         <p>Don't be overly precious and detail-oriented when it comes to shipping in the early stages of your product. Listen, develop, ship and listen again.</p>
         <h4>Design systems  🥰</h4>
-        <p>It doesn't matter how big your company is, a design system has the potential to benefit every company. A design system is also much more than just a component library, just more a toolbox with different aspects of working together in a faster and more structured way. But don't overthink it too much, when you are small - it can be a rabbit hole if you are not careful and intentional in the construction of such a system.</p>      </div>
+        <p>It doesn't matter how big your company is, a design system has the potential to benefit every company. A design system is also much more than just a component library, just more a toolbox with different aspects of working together in a faster and more structured way. But don't overthink it too much, when you are small - it can be a rabbit hole if you are not careful and intentional in the construction of such a system.</p>
+      </div>
     </div>
   </div>
 </section>
