@@ -51,6 +51,16 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // only content in the `posts/` directory
+  eleventyConfig.addCollection("postsTeaser", function (collection) {
+    var allPosts = collection.getAllSorted().filter(function (item) {
+      return item.inputPath.match(/^\.\/posts\//) !== null;
+    });
+
+    const homepagePosts = allPosts.slice(0, 2)
+    return homepagePosts;
+  });
+
   // only content in the `work/` directory
   eleventyConfig.addCollection("work", function (collection) {
     return collection.getAllSorted().filter(function (item) {

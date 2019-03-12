@@ -1,5 +1,6 @@
 ---
 title: Motus Warehouse
+tags: projectFeature
 company: REICHHART digital logistics
 platform: Web
 projectDuration: 2016 - 2018
