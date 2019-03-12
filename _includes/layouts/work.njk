@@ -20,14 +20,9 @@ section: about
       <aside class="side-projects-info">
         <h2 class="f-mb3 title-3">Side Projects</h2>
         <p>Alongside regular workdays, I also like to tinker with new technologies or work on side projects with friends. Traditionally, these projects are mostly based on web technologies or iOS as a platform. I also have a deeply rooted passion for podcasting.</p>      </aside>
-      <ul class="side-project-list">
-              <li class="side-project__item">
-          <h3 class="f-mb3 title-3">Podlove Web Player</h3>
-          <p>The <a href="https://podlove.org/podlove-web-player/">Podlove Web Player</a> is an optimized open-source podcast player based on <a href="https://vuejs.org">Vue</a>. In mid-2018, I joined the team and started contributing concepts and visual design to improve the experience of this player. The first release I've supported with ideas and designs was the redesign of the file tab. Shortly after that, I contributed some tweaks to the audio tab. View the <a href="https://github.com/podlove/podlove-web-player">source on GitHub</a>.</p>        </li>
-              <li class="side-project__item">
-          <h3 class="f-mb3 title-3">Sparv</h3>
-          <p>Sparv was a web service with the goal of making the lives for personal trainers and their clients more comfortable. Together with a friend, we focused on building an early prototype that tried to solve the needs of personal trainers. We developed the first version in <a href="https://nodejs.org/en/">Node</a> and <a href="https://vuejs.org">Vue</a>. Because of some changes in both our lives, we stopped the project in early 2018 and open-sourced the current status of this project. View the <a href="https://github.com/sparv">source on GitHub</a> or some <a href="https://dribbble.com/coolcut/projects/581695-Sparv">designs on Dribbble</a>.</p>        </li>
-            </ul>
+        <ul class="side-project-list">
+          {% set sideprojectlist = collections.sideProject %}
+          {% include "components/sideprojectlist.njk" %}
     </section>
   </div>
 </main>

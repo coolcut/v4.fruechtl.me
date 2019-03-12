@@ -1,0 +1,6 @@
+{% for item in sideprojectlist %}
+<li class="side-project__item">
+	<h3 class="f-mb3 title-3">{{ item.data.title }}</h3>
+	{{ item.templateContent | safe }}
+</li>
+{% endfor %}

@@ -51,18 +51,39 @@ previewBackgroundcolor: "#BBE5CC"
       <p>After some initial discussions and briefings with our lead product manager, we tackled this project with a quick and iterative approach. One of the keys to the success of this project was the idea of a multi-step form flow. <mark>This idea seemed logical because we could split-up the complexity in smaller and manageable junks of information. This implementation would make the process more transparent and easy to understand.</mark></p>
       <p>We iterated and tested small prototypes with this idea in mind. After seeing the evident success of these prototypes, we quickly moved into a more detail-oriented phase of visual design.</p>
       <figure>
-        <img alt="A screenshot from the advance VAT return history page. It shows a list with all the transmitted forms." src="https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/1429081108-1549818934/ust-va-history.jpg">
+        <img data-srcset="/static/images/ust-va-history.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/ust-va-history.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/ust-va-history.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/ust-va-history.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/ust-va-history.jpg?nf_resize=fit&w=1200"
+              alt="A screenshot from the advance VAT return history page. It shows a list with all the transmitted forms."
+              class="f-db lozad">
         <figcaption>All of the past transmissions will be displayed in this table.</figcaption>
       </figure>
       <figure class="rev">
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/453314216-1549818929/ust-va-form-step-two.jpg">
+        <img data-srcset="/static/images/ust-va-form-step-two.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/ust-va-form-step-two.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/ust-va-form-step-two.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/ust-va-form-step-two.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/ust-va-form-step-two.jpg?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
         <figcaption>The second screen of our three-step form. This is the main interaction area for our customers where they need to enter incoming and outgoing amounts of money for their VAT declaration.</figcaption>
       </figure>
       <h3>Users love transparent processes</h3>
       <p>In the beginning, I mentioned the idea of absolute transparency throughout the form wizard. We solved a considerable chunk of this challenge with the last step of our form wizard - the result screen. The purpose of this screen is mainly to show the user every entered input. Furthermore, they can also see the estimated amount of money they owe or get back from the fiscal authority.</p>
       <p><mark>With this final screen, we tried to lower the anxiety levels of our users, because everybody gets a clear picture of the specific data that will be transmitted. As a result of that, potential mistakes will become visible before it is too late. With this information in mind, everybody can make an informed decision about submitting the entered data to the fiscal authorities.</mark> During our usability tests, this screen performed exceptionally well, and users felt more empowered and informed about their transmission.</p>
       <figure>
-        <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/1440370454-1549818929/ust-va-form-step-three.jpg">
+        <img data-srcset="/static/images/ust-va-form-step-three.jpg?nf_resize=fit&w=400 400w,
+                          /static/images/ust-va-form-step-three.jpg?nf_resize=fit&w=600 600w,
+                          /static/images/ust-va-form-step-three.jpg?nf_resize=fit&w=800 800w,
+                          /static/images/ust-va-form-step-three.jpg?nf_resize=fit&w=1200 1200w"
+              sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
+              data-src="/static/images/ust-va-form-step-three.jpg?nf_resize=fit&w=1200"
+              alt=""
+              class="f-db lozad">
         <figcaption>The final screen during the submission process. It shows all entered data back to the user.</figcaption>
       </figure>
       <h3>User love test runs</h3>
@@ -81,7 +102,7 @@ previewBackgroundcolor: "#BBE5CC"
       <aside class="cs-section-sidebar">
         <div class="cs-section-sidebar--aside">
           <figure>
-            <img alt="" src="https://fruechtl.me/media/pages/work/case-studies/advance-vat-return/15076600-1549818929/learning-image.png">
+            <img alt="" class="f-db lozad" src="/static/images/learning-image.png">
           </figure>
         </div>
       </aside>
