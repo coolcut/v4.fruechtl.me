@@ -6,6 +6,8 @@ platform: Web
 projectDuration: Q4 - 2018
 role: Concept, Design and User Testing
 previewBackgroundcolor: "#BBE5CC"
+previewImage: work-item-ust-va.png
+heroImage: work-item-ust-va.png
 ---
 
 <section class="f-mb10 f-mb12-m">

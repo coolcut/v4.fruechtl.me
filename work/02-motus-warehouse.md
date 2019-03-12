@@ -6,6 +6,8 @@ platform: Web
 projectDuration: 2016 - 2018
 role: Concepts, Design, Fontend Development and User Testing
 previewBackgroundcolor: "#F1F1F3"
+previewImage: work-item-motus-warehouse.png
+heroImage: work-item-motus-warehouse.png
 ---
 
 <section class="f-mb10 f-mb12-m">

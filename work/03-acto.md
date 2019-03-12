@@ -5,6 +5,8 @@ platform: iOS
 projectDuration: 28 hours
 role: Concept, Design and Frontend (React Native)
 previewBackgroundcolor: "#BFC1E3"
+previewImage: acto-preview.png
+heroImage: work-item-acto.png
 ---
 
 <section class="f-mb10 f-mb12-m">

@@ -5,6 +5,8 @@ platform: Android
 projectDuration: 2016 - 2018
 role: Concepts, Design and User Testing
 previewBackgroundcolor: "#E5D2BB"
+previewImage: work-item-motus-scanner.png
+heroImage: work-item-motus-scanner.png
 ---
 
 <section class="f-mb10 f-mb12-m">
