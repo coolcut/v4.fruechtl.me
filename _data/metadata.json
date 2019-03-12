@@ -6,5 +6,9 @@
     "name": "Jan Früchtl",
     "email": "jan@fruechtl.me",
     "github": "https://github.com/coolcut"
+  },
+  "seo": {
+    "title": "",
+    "description": "Test"
   }
 }
