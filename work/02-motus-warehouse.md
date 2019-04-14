@@ -8,6 +8,7 @@ role: Concepts, Design, Fontend Development and User Testing
 previewBackgroundcolor: "#F1F1F3"
 previewImage: work-item-motus-warehouse.png
 heroImage: work-item-motus-warehouse.png
+heroImageAlt: Example screen for the Motus Warehouse project.
 ---
 
 <section class="f-mb10 f-mb12-m">

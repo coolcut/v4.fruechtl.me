@@ -8,6 +8,7 @@ role: Concept, Design and User Testing
 previewBackgroundcolor: "#BBE5CC"
 previewImage: work-item-ust-va.png
 heroImage: work-item-ust-va.png
+heroImageAlt: Example screen for the Advance VAT Return project.
 ---
 
 <section class="f-mb10 f-mb12-m">
@@ -60,7 +61,7 @@ heroImage: work-item-ust-va.png
               sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
               data-src="/static/images/ust-va-history.jpg?nf_resize=fit&w=1200"
               alt="A screenshot from the advance VAT return history page. It shows a list with all the transmitted forms."
-              class="f-db ">
+              class="f-db lozad">
         <figcaption>All of the past transmissions will be displayed in this table.</figcaption>
       </figure>
       <figure class="rev">
@@ -71,7 +72,7 @@ heroImage: work-item-ust-va.png
               sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
               data-src="/static/images/ust-va-form-step-two.jpg?nf_resize=fit&w=1200"
               alt=""
-              class="f-db ">
+              class="f-db lozad">
         <figcaption>The second screen of our three-step form. This is the main interaction area for our customers where they need to enter incoming and outgoing amounts of money for their VAT declaration.</figcaption>
       </figure>
       <h3>Users love transparent processes</h3>
@@ -85,7 +86,7 @@ heroImage: work-item-ust-va.png
               sizes="(min-width: 1000px) 800px, (min-width: 860px) 500px, 100vw"
               data-src="/static/images/ust-va-form-step-three.jpg?nf_resize=fit&w=1200"
               alt=""
-              class="f-db ">
+              class="f-db lozad">
         <figcaption>The final screen during the submission process. It shows all entered data back to the user.</figcaption>
       </figure>
       <h3>User love test runs</h3>
@@ -104,7 +105,7 @@ heroImage: work-item-ust-va.png
       <aside class="cs-section-sidebar">
         <div class="cs-section-sidebar--aside">
           <figure>
-            <img alt="" class="f-db " src="/static/images/learning-image.png">
+            <img alt="" class="f-db lozad" src="/static/images/learning-image.png">
           </figure>
         </div>
       </aside>

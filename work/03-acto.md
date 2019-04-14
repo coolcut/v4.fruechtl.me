@@ -7,6 +7,7 @@ role: Concept, Design and Frontend (React Native)
 previewBackgroundcolor: "#BFC1E3"
 previewImage: acto-preview.png
 heroImage: work-item-acto.png
+heroImageAlt: Example screen for the Acto project.
 ---
 
 <section class="f-mb10 f-mb12-m">
