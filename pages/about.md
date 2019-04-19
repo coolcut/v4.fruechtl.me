@@ -7,7 +7,7 @@ navtitle: About
 section: about
 date: 2017-01-01
 permalink: /about/
-slogan: I am a designer and developer currently working as a UX Designer at FastBill. I live and work in the heart of Europe, Frankfurt am Main in Germany.
+slogan: I am a designer and developer currently working as a Product Designer at Clark. I live and work in the heart of Europe, Frankfurt am Main in Germany.
 inquires: Currently, I have limited resources as a freelancer. Nevertheless, please don't hesitate to reach out via <a href="mailto:jan@fruechtl.me">email</a>
 design: Visual Design, Wireframes, User Research, User Testing, User Journeys, Design Systems, Ideation and Feedback Sessions, Persona
 coding: HTML & (S)CSS, JavaScript, Vue.js, React, React Native, Node, Swift, Git, Patternlab, WordPress, ProcessWire, Kirby
