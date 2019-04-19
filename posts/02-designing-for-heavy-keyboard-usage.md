@@ -1,11 +1,7 @@
 ---
 title: Designing for heavy keyboard usage
-summary: Why contemplating our mortality can be a powerful catalyst for change
+summary: Some thoughts I gathered after working on a web application prototype with a focus on keyboard usage
 date: 2018-07-26
-tags:
-  - post
-  - environment
-  - politics
 ---
 
 I’m currently working on a concept which focuses heavily on keyboard usage. The goals are clearly defined - every instance that comes into the system needs to be edited as fast as possible. We are focusing on advanced users with a need for speed and throughput. Possible solutions to this problem are shortcuts or workflows that heavily rely on keyboard usage, because when it comes to fast editing, you don't want your users to click every shine button or embrace that long and fancy animation you've created. It's all about intuitively solving this specific problem of speed and throughput.

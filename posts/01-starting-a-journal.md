@@ -1,6 +1,6 @@
 ---
 title: Starting a journal
-summary: Why contemplating our mortality can be a powerful catalyst for change
+summary: As of today, I want to share ideas, thoughts or interesting articles I read.
 date: 2018-07-22
 ---
 
