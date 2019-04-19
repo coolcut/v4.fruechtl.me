@@ -16,8 +16,8 @@
     </div>
   </div>
 </footer>
-<script src="/static/js/lozad.min.js"></script>
 {% set js %}
+  {% include "assets/js/lozad.min.js" %}
   {% include "assets/js/main.js" %}
 {% endset %}
 <script>{{ js | jsmin | safe }}</script>
