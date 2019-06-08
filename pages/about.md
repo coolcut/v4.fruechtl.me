@@ -16,11 +16,12 @@ software: Sketch, Figma, Framer, InVision, Marvel, Abstract, Zeplin
 
 Besides my day work, I also consult small and medium businesses on design and web problems. Additionally, I work on different side projects.
 
-At FastBill, I primarily work on our web application. One of the main challenges there is to further improve the overall user experience by rethinking the whole application while also keeping everything visually in sync with the legacy system. Another essential part of what I do is building a stable environment for the future success of the company with different ideation, feedback and communication workshops. That way we incorporate diverse opinions from different teams early on and optimize for future success.
+At Clark, which is a digital insurance broker available on the [Web](https://www.clark.de/de/) as well as [Android](https://play.google.com/store/apps/details?id=de.clark.app) and [iOS](https://itunes.apple.com/de/app/der-versicherungsmanager/id1054790721?mt=8), I work on all our different consumer-facing product as well as the Whitelabel business.
 
 In my spare time, I also work on different passion and open source projects. These projects differ in size, audience and time investment and include things like podcast production, contribution to an open source podcast player, development of iOS applications or possible product ideas I work on with friends. The thing I enjoy the most about these different challenges and opportunities is the diversity of problems that occur during the life-span of such projects. These activities keep me energized, help me grow and uncover unknown view-points to different problems.
 
 ### Elsewhere
+
 Personally, I love almost nothing as much as a good conversation or discussions about an exciting topic. If you'd like to talk to me about a specific subject or nearly anything, feel free to [email](mailto:jan@fruechtl.me) me.
 
 You can also find me on different popular social media platforms. Sometimes I share my thoughts on [Twitter](https://twitter.com/_coolcut), preferably [Mastodon](https://mastodon.social/@coolcut) or post visual content on [Dribbble](https://dribbble.com/coolcut).
